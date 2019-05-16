@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+.carousel-item{
+    height: 580px;
+    min-height: 580px;
+    background: no-repeat center center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    
+   }
+
+   .contenedor{
+    width: 100%;
+    height: 125px;
+    margin: auto;
+    background: #0467A3;
+    color: white;
+    position:sticky;
+}
+
+.contenedor img{
+    float: left;
+    width: 90px;
+    height: 100px;
+    margin: 10px;
+}
+
+.contenedor h1{
+    font-size: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.contenedor h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.contenedor nav{
+    float: left;
+    margin-left: 50%;
+    background: #FCA859;
+    height: 35px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.contenedor nav a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 10px;
+    float:left;
+}
+.contenedor nav a:hover, .contenedor nav a.activo{
+    background-color: white;
+    color: orange;
+}
+
+.div-imagen {
+    margin-top: 30px;
+    display:inline-block;
+    position:relative;
+    margin-left: 50px;
+    
+  }
+  
+  .div-imagen > div {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+    }
+  
+  .desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+
+.titulo h1{
+   font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.pieDePagina{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.login form{
+
+margin: 15%;
+width: 50%;
+margin-left: 30%;
+max-width: 500px;
+background: #f3f3f3;
+padding: 30px;
+border: 1px solid rgb(0, 0, 0, 0.2) 
+}
+
+.login h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0, 0.5)
+}
+
+.login input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.login input[type="submit"]{
+    background: linear-gradient(#ffda33, #0467A3);
+    border: 0;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+ .login input[type="submit"] :hover{
+    
+    opacity: 1;
+}
+ .login input[type="submit"] :active{
+    
+    transform: scale(0.95);
+}
+
+@media(max-width: 768px){
+    form{
+        width: 75%;
+    }
+}
+@media(max-width: 480px){
+    form{
+        width: 95%;
+    }
+}
+
+
+
