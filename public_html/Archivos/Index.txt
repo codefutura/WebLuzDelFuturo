@@ -1,4 +1,4 @@
-                     <!--Contenedor de imagenes para el slider-->
+                 <!--Contenedor de imagenes para el slider-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -34,7 +34,7 @@
            sequi, sapiente sed deserunt modi dolor beatae, molestiae illum quibusdam eaque asperiores quis, 
            quo praesentium totam dolorem ducimus tempore!</p> <a href="#"> Leer mas....</a> 
       </div>
-      <img class="desvanecer" src="imagenes/estudio.jpg" width="450" height="250" />
+      <img class="desvanecer" src="imagenes/estudio.jpg" width="300" height="250" />
     </div>
     <div class="div-imagen">
       <div>
@@ -42,7 +42,7 @@
            sequi, sapiente sed deserunt modi dolor beatae, molestiae illum quibusdam eaque asperiores quis, 
            quo praesentium totam dolorem ducimus tempore!</p> <a href="#"> Leer mas....</a> 
       </div>
-      <img class="desvanecer" src="imagenes/calendario2.jpg" width="450" height="250" />
+      <img class="desvanecer" src="imagenes/calendario2.jpg" width="300" height="250" />
     </div>
     <div class="div-imagen">
       <div>
@@ -51,7 +51,7 @@
            quo praesentium totam dolorem ducimus tempore!</p>
           <a href="#">Leer mas....</a> 
       </div>
-      <img class="desvanecer" src="imagenes/cocurriculares.png" width="450" height="250" />
+      <img class="desvanecer" src="imagenes/cocurriculares.png" width="300" height="250" />
     </div>
   </div>
 
@@ -71,7 +71,7 @@
              sequi, sapiente sed deserunt modi dolor beatae, molestiae illum quibusdam eaque asperiores quis, 
              quo praesentium totam dolorem ducimus tempore!</p> 
         </div>
-        <img class="desvanecer" src="imagenes/idioma1.gif" width="450" height="250" />
+        <img class="desvanecer" src="imagenes/idioma1.gif" width="300" height="250" />
       </div>
       <div class="div-imagen">
         <div>
@@ -80,7 +80,7 @@
              sequi, sapiente sed deserunt modi dolor beatae, molestiae illum quibusdam eaque asperiores quis, 
              quo praesentium totam dolorem ducimus tempore!</p> 
         </div>
-        <img class="desvanecer" src="imagenes/nuevastecnologia.jpg" width="450" height="250" />
+        <img class="desvanecer" src="imagenes/nuevastecnologia.jpg" width="300" height="250" />
       </div>
     
       <div class="div-imagen">
@@ -90,7 +90,7 @@
                sequi, sapiente sed deserunt modi dolor beatae, molestiae illum quibusdam eaque asperiores quis, 
                quo praesentium totam dolorem ducimus tempore!</p>
           </div>
-          <img class="desvanecer" src="imagenes/recursos didacticos.jpg" width="450" height="250" />
+          <img class="desvanecer" src="imagenes/recursos didacticos.jpg" width="300" height="250" />
         </div>
     </div>
   
