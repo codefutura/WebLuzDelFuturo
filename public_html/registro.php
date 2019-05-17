@@ -6,7 +6,7 @@ require 'functions.php';
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $usuario = limpiarDatos($_POST['usuario']);
     $password = limpiarDatos($_POST['password']);
-   // $password = hash('sha512', $password); 
+    $password = hash('sha512', $password); 
     $rol = $_POST['rol'];
 
     $errores = '';

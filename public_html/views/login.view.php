@@ -20,7 +20,7 @@
     
     <h2>Login</h2>
     <input type="text" name="usuario" placeholder="Usuario" class="form-control">
-    <input type="password" name="password" placeholder="password" class="form-control">
+    <input type="password" name="pass" placeholder="password" class="form-control">
 
     <ul><!--mostrar menjase de errores -->
              <?php if(!empty($errores)): ?>

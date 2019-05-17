@@ -24,7 +24,7 @@ function obtenerEncabezado(){
 						<a class="activo" href="indexhol.php">Inicio</a>
 					<a href="informaciongeneral.php">Informacion General</a>
 					<a href="ofertacurricular.php">Oferta Curricular</a>
-					<a href="login.html">Estudiantes</a>
+					<a href="login.php">Estudiantes</a>
 			</nav-->
 		</header>
 
